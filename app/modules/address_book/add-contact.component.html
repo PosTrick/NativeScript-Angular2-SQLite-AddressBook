@@ -1,0 +1,9 @@
+<ActionBar title="New contact" class="action-bar">
+</ActionBar>
+<StackLayout class="page" orientation="vertical">
+    <Image style="width: 25%;margin-top: 3%" src="https://cdn4.iconfinder.com/data/icons/outline-2/64/contact-book-512.png"></Image>
+    <TextField hint="Username" [(ngModel)]="address.username"></TextField>
+    <TextField hint="Phone number" [(ngModel)]="address.number"></TextField>
+    <Button text="Save" (tap)="saveContact()"></Button>
+    <Button text="Cancel" (tap)="cancel()"></Button>
+</StackLayout>

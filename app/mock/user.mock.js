@@ -1,0 +1,6 @@
+"use strict";
+exports.USER = {
+    username: "Postrick",
+    password: "Postrick"
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidXNlci5tb2NrLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsidXNlci5tb2NrLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFFYSxRQUFBLElBQUksR0FBUztJQUN0QixRQUFRLEVBQUUsVUFBVTtJQUNwQixRQUFRLEVBQUUsVUFBVTtDQUN2QixDQUFBIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtVc2VyfSBmcm9tIFwiLi4vbW9kZWwvdXNlci5tb2RlbFwiO1xuXG5leHBvcnQgY29uc3QgVVNFUjogVXNlciA9IHtcbiAgICB1c2VybmFtZTogXCJQb3N0cmlja1wiLFxuICAgIHBhc3N3b3JkOiBcIlBvc3RyaWNrXCJcbn0iXX0=

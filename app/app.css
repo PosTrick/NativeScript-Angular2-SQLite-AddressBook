@@ -1,0 +1,18 @@
+@import "~nativescript-theme-core";
+Page {
+    background-color: white;
+    font-size: 17px;
+}
+TextField {
+    margin: 10px;
+    padding: 10px;
+}
+Button {
+    margin: 10px;
+    padding: 10px;
+}
+ListView {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}

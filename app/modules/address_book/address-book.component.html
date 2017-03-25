@@ -1,0 +1,13 @@
+<ActionBar title="Address Book" class="action-bar">
+    <Button text="New Contact" (tap)="addContact()"></Button>
+</ActionBar>
+<StackLayout class="page" orientation="vertical">
+    <ListView [items]="listAddressBook">
+        <template let-contact="item">
+            <StackLayout style="display: inline">
+                <Label text="Name: {{ contact.username }}"></Label>
+                <Label text="# {{ contact.number}}"></Label>
+            </StackLayout>
+        </template>
+    </ListView>
+</StackLayout>

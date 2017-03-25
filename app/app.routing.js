@@ -1,0 +1,25 @@
+"use strict";
+var core_1 = require("@angular/core");
+var router_1 = require("nativescript-angular/router");
+var login_component_1 = require("./modules/auth/login.component");
+var address_book_component_1 = require("./modules/address_book/address-book.component");
+var add_contact_component_1 = require("./modules/address_book/add-contact.component");
+var routes = [
+    { path: "", redirectTo: "/login", pathMatch: "full" },
+    { path: "login", component: login_component_1.LoginComponent },
+    { path: "addressbook", component: address_book_component_1.AddressBookComponent },
+    { path: "new-contact", component: add_contact_component_1.AddContactComponent }
+];
+var AppRoutingModule = (function () {
+    function AppRoutingModule() {
+    }
+    return AppRoutingModule;
+}());
+AppRoutingModule = __decorate([
+    core_1.NgModule({
+        imports: [router_1.NativeScriptRouterModule.forRoot(routes)],
+        exports: [router_1.NativeScriptRouterModule]
+    })
+], AppRoutingModule);
+exports.AppRoutingModule = AppRoutingModule;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwLnJvdXRpbmcuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJhcHAucm91dGluZy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQUEsc0NBQXlDO0FBQ3pDLHNEQUF1RTtBQUV2RSxrRUFBOEQ7QUFDOUQsd0ZBQW1GO0FBQ25GLHNGQUFpRjtBQUVqRixJQUFNLE1BQU0sR0FBVztJQUNuQixFQUFFLElBQUksRUFBRSxFQUFFLEVBQUUsVUFBVSxFQUFFLFFBQVEsRUFBRSxTQUFTLEVBQUUsTUFBTSxFQUFFO0lBQ3JELEVBQUUsSUFBSSxFQUFFLE9BQU8sRUFBRSxTQUFTLEVBQUUsZ0NBQWMsRUFBRTtJQUM1QyxFQUFFLElBQUksRUFBRSxhQUFhLEVBQUUsU0FBUyxFQUFFLDZDQUFvQixFQUFDO0lBQ3ZELEVBQUUsSUFBSSxFQUFFLGFBQWEsRUFBRSxTQUFTLEVBQUUsMkNBQW1CLEVBQUU7Q0FDMUQsQ0FBQztBQU1GLElBQWEsZ0JBQWdCO0lBQTdCO0lBQWdDLENBQUM7SUFBRCx1QkFBQztBQUFELENBQUMsQUFBakMsSUFBaUM7QUFBcEIsZ0JBQWdCO0lBSjVCLGVBQVEsQ0FBQztRQUNOLE9BQU8sRUFBRSxDQUFDLGlDQUF3QixDQUFDLE9BQU8sQ0FBQyxNQUFNLENBQUMsQ0FBQztRQUNuRCxPQUFPLEVBQUUsQ0FBQyxpQ0FBd0IsQ0FBQztLQUN0QyxDQUFDO0dBQ1csZ0JBQWdCLENBQUk7QUFBcEIsNENBQWdCIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgTmdNb2R1bGUgfSBmcm9tIFwiQGFuZ3VsYXIvY29yZVwiO1xuaW1wb3J0IHsgTmF0aXZlU2NyaXB0Um91dGVyTW9kdWxlIH0gZnJvbSBcIm5hdGl2ZXNjcmlwdC1hbmd1bGFyL3JvdXRlclwiO1xuaW1wb3J0IHsgUm91dGVzIH0gZnJvbSBcIkBhbmd1bGFyL3JvdXRlclwiO1xuaW1wb3J0IHtMb2dpbkNvbXBvbmVudH0gZnJvbSBcIi4vbW9kdWxlcy9hdXRoL2xvZ2luLmNvbXBvbmVudFwiO1xuaW1wb3J0IHtBZGRyZXNzQm9va0NvbXBvbmVudH0gZnJvbSBcIi4vbW9kdWxlcy9hZGRyZXNzX2Jvb2svYWRkcmVzcy1ib29rLmNvbXBvbmVudFwiO1xuaW1wb3J0IHtBZGRDb250YWN0Q29tcG9uZW50fSBmcm9tIFwiLi9tb2R1bGVzL2FkZHJlc3NfYm9vay9hZGQtY29udGFjdC5jb21wb25lbnRcIjtcblxuY29uc3Qgcm91dGVzOiBSb3V0ZXMgPSBbXG4gICAgeyBwYXRoOiBcIlwiLCByZWRpcmVjdFRvOiBcIi9sb2dpblwiLCBwYXRoTWF0Y2g6IFwiZnVsbFwiIH0sXG4gICAgeyBwYXRoOiBcImxvZ2luXCIsIGNvbXBvbmVudDogTG9naW5Db21wb25lbnQgfSxcbiAgICB7IHBhdGg6IFwiYWRkcmVzc2Jvb2tcIiwgY29tcG9uZW50OiBBZGRyZXNzQm9va0NvbXBvbmVudH0sXG4gICAgeyBwYXRoOiBcIm5ldy1jb250YWN0XCIsIGNvbXBvbmVudDogQWRkQ29udGFjdENvbXBvbmVudCB9XG5dO1xuXG5ATmdNb2R1bGUoe1xuICAgIGltcG9ydHM6IFtOYXRpdmVTY3JpcHRSb3V0ZXJNb2R1bGUuZm9yUm9vdChyb3V0ZXMpXSxcbiAgICBleHBvcnRzOiBbTmF0aXZlU2NyaXB0Um91dGVyTW9kdWxlXVxufSlcbmV4cG9ydCBjbGFzcyBBcHBSb3V0aW5nTW9kdWxlIHsgfSJdfQ==
