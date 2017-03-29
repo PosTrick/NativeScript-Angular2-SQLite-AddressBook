@@ -2,9 +2,9 @@
   "description": "TNS Address book",
   "license": "Postrick",
   "readme": "TNS Address book",
-  "repository": "https://github.com/PosTrick/Angular2DB",
+  "repository": "https://github.com/PosTrick/NativeScript-Angular2-SQLite-AddressBook",
   "nativescript": {
-    "id": "postrick.nativescript.angular2DB",
+    "id": "postrick.nativescript.nsangular2",
     "tns-ios": {
       "version": "2.5.0"
     }

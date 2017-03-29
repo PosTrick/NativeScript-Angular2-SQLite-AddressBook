@@ -1,5 +1,4 @@
 import { Component, OnInit } from "@angular/core";
-import {Location} from "@angular/common";
 import {User} from "../../model/user.model";
 import {USER} from "../../mock/user.mock";
 import {RouterExtensions} from "nativescript-angular/router";
@@ -12,8 +11,6 @@ import {RouterExtensions} from "nativescript-angular/router";
 export class LoginComponent implements OnInit {
 
     public credential: User;
-    location: Location;
-
 
     constructor(private nav: RouterExtensions) {
 

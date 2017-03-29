@@ -50,7 +50,6 @@ export class DatabaseService {
                                 "number": rows[row][2]
                             });
                         }
-                        console.log("Risultati della select: ", JSON.stringify(result));
                         resolve(result);
                     }, error => {
                         console.log("SELECT ERROR", error);
