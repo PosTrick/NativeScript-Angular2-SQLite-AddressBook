@@ -10,7 +10,11 @@ $ git clone https://github.com/PosTrick/NativeScript-Angular2-SQLite-AddressBook
 
 move into the folder
 
+$ tns platform add ios
+$ tns platform add android
+
 $ npm install
 
-$ npm start
+$ tns run ios
+( $ tns emulate ios )
 
