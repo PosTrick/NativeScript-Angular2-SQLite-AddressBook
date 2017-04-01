@@ -16,3 +16,10 @@ ListView {
     padding: 10px;
     font-size: 20px;
 }
+.loading {
+    color: #ffd30b;
+    font-size: 25px;
+    margin-top: 15%;
+    margin-left: 30%;
+    font-weight: bold;
+}

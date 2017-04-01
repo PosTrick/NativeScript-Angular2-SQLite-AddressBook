@@ -7,6 +7,7 @@ import {LoginComponent} from "./modules/auth/login.component";
 import {AddressBookComponent} from "./modules/address_book/address-book.component";
 import {DatabaseService} from "./services/database.service";
 import {AddContactComponent} from "./modules/address_book/add-contact.component";
+import {SplashScreenComponent} from "./modules/splash_screen/splash-screen.component";
 
 @NgModule({
     bootstrap: [
@@ -19,6 +20,7 @@ import {AddContactComponent} from "./modules/address_book/add-contact.component"
     ],
     declarations: [
         AppComponent,
+        SplashScreenComponent,
         LoginComponent,
         AddressBookComponent,
         AddContactComponent
